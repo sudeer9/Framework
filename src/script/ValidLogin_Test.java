@@ -12,7 +12,7 @@ public class ValidLogin_Test extends BaseTest
 	@Test(priority=1,groups= {"login","smoke"})
 	public void testValidLogin() throws InterruptedException
 	{
-		String un=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 10);
+		String un=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 0);
 		String pw=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 1);
 		String eTitle=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 2);
 		LoginPage l=new LoginPage(driver);

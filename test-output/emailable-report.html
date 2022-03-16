@@ -31,26 +31,35 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">121.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">122.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">script.ValidLogin_Test</td><td><a href="#m1"><b>testValidLogin</b> (smoke, login) </a></td><td class="numi">1</td><td>1647453851692</td><td class="numi">10213</td></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">script.InvalidLogin_Test</td><td><a href="#m1"><b>testInvalidLogin</b> (login) </a></td><td class="numi">1</td><td>1647452730808</td><td class="numi">19497</td></tr>
-<tr class="passedeven"><td rowspan="1">script.VerifyProductVersion_Test</td><td><a href="#m2"><b>testProductVerson</b> (smoke) </a></td><td class="numi">1</td><td>1647452700788</td><td class="numi">12589</td></tr>
-<tr class="passedodd"><td rowspan="1">script.ValidLogin_Test</td><td><a href="#m3"><b>testValidLogin</b> (smoke, login) </a></td><td class="numi">1</td><td>1647452667906</td><td class="numi">15958</td></tr>
+<tr class="passedodd"><td rowspan="1">script.InvalidLogin_Test</td><td><a href="#m2"><b>testInvalidLogin</b> (login) </a></td><td class="numi">1</td><td>1647453908980</td><td class="numi">19990</td></tr>
+<tr class="passedeven"><td rowspan="1">script.VerifyProductVersion_Test</td><td><a href="#m3"><b>testProductVerson</b> (smoke) </a></td><td class="numi">1</td><td>1647453878068</td><td class="numi">11554</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">script.InvalidLogin_Test:testInvalidLogin</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">script.ValidLogin_Test:testValidLogin</h2>
+<h2 id="m1">script.ValidLogin_Test:testValidLogin</h2>
 <div style="padding-left:3em">
-Actual tiltle is matching with the Expected tiltle<br/>
+<p>expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at page.EnterPage.verifyHomePageDisplayed(EnterPage.java:49)
+<br/>at script.ValidLogin_Test.testValidLogin(ValidLogin_Test.java:26)
+<br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">script.VerifyProductVersion_Test:testProductVerson</h2>
+<h2 id="m2">script.VerifyProductVersion_Test:testProductVerson</h2>
 <div style="padding-left:3em">
 Actual and Expected versions are same<br/>
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">script.InvalidLogin_Test:testInvalidLogin</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
