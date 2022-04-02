@@ -7,7 +7,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class Excel_Data 
 {
-	//Method to Read data from Excel
+	//Method to Read data from Excel sheet
 	public static String getValue(String path, String sheet, int r, int c)
 	{
 		String v="";
