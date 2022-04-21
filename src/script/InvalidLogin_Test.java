@@ -19,9 +19,10 @@ public class InvalidLogin_Test extends BaseTest
 			String expectedMsg=Excel_Data.getValue(EXCEL_PATH, "Invalid Login", i, 2);
 			LoginPage l=new LoginPage(driver);
 			//Enter User Name
-			l.setuserName(un);
+			l.login(un, pw);
+			/*l.setuserName(un);
 			l.setPassword(pw);
-			l.clickLogin();
+			l.clickLogin();*/
 			Thread.sleep(2000);
 			l.verifyErrorMSG(expectedMsg);
 			Thread.sleep(2000);

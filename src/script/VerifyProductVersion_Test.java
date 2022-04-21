@@ -19,9 +19,10 @@ public class VerifyProductVersion_Test extends BaseTest
 			String pw=Excel_Data.getValue(EXCEL_PATH, "Verify Product Version", i, 1);
 			String version=Excel_Data.getValue(EXCEL_PATH, "Verify Product Version", i, 2);
 			LoginPage l=new LoginPage(driver);
-			l.setuserName(un);
+			l.login(un, pw);
+			/*l.setuserName(un);
 			l.setPassword(pw);
-			l.clickLogin();
+			l.clickLogin();*/
 			Thread.sleep(2000);
 			EnterPage e=new EnterPage(driver);
 			Thread.sleep(2000);

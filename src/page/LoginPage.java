@@ -22,6 +22,16 @@ public class LoginPage
 		PageFactory.initElements(driver, this);
 	}
 	//Methods
+	
+	public void login(String un, String pw) throws InterruptedException
+	{
+		unTB.sendKeys(un);
+		pwTB.sendKeys(pw);
+		loginBTN.click();
+		Thread.sleep(4000);
+	}
+	
+	/*
 	public void setuserName(String un)
 	{
 		unTB.sendKeys(un);
@@ -34,6 +44,8 @@ public class LoginPage
 	{
 		loginBTN.click();
 	}
+	
+	*/
 	public void verifyErrorMSG(String expectedMSG)
 	{
 		//

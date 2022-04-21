@@ -17,7 +17,7 @@
       <![CDATA[testProductVerson is PASSED]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-09T03:56:23Z" name="Suite" finished-at="2022-04-09T03:58:31Z" duration-ms="127882">
+  <suite started-at="2022-04-21T02:48:53Z" name="Suite" finished-at="2022-04-21T02:50:45Z" duration-ms="111270">
     <groups>
       <group name="smoke">
         <method signature="ValidLogin_Test.testValidLogin()[pri:1, instance:script.ValidLogin_Test@6f27a732]" name="testValidLogin" class="script.ValidLogin_Test"/>
@@ -28,17 +28,17 @@
         <method signature="ValidLogin_Test.testValidLogin()[pri:1, instance:script.ValidLogin_Test@6f27a732]" name="testValidLogin" class="script.ValidLogin_Test"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2022-04-09T03:56:23Z" name="Test" finished-at="2022-04-09T03:58:31Z" duration-ms="127882">
+    <test started-at="2022-04-21T02:48:53Z" name="Test" finished-at="2022-04-21T02:50:45Z" duration-ms="111270">
       <class name="script.InvalidLogin_Test">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-09T09:27:23Z" name="openApp" finished-at="2022-04-09T09:27:39Z" duration-ms="15674" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-21T08:19:24Z" name="openApp" finished-at="2022-04-21T08:19:39Z" duration-ms="14807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-09T09:27:39Z" name="testInvalidLogin" finished-at="2022-04-09T09:27:59Z" duration-ms="20729" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-21T08:19:39Z" name="testInvalidLogin" finished-at="2022-04-21T08:20:13Z" duration-ms="34511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-09T09:27:59Z" name="closeApp" finished-at="2022-04-09T09:28:01Z" duration-ms="1733" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin_Test@f381794]" started-at="2022-04-21T08:20:13Z" name="closeApp" finished-at="2022-04-21T08:20:15Z" duration-ms="1517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,18 +54,18 @@
         </test-method> <!-- closeApp -->
       </class> <!-- script.InvalidLogin_Test -->
       <class name="script.VerifyProductVersion_Test">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-09T09:28:01Z" name="openApp" finished-at="2022-04-09T09:28:16Z" duration-ms="15238" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-21T08:20:15Z" name="openApp" finished-at="2022-04-21T08:20:29Z" duration-ms="14134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testProductVerson()[pri:3, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-09T09:28:16Z" name="testProductVerson" finished-at="2022-04-09T09:28:29Z" duration-ms="12679" status="PASS">
+        <test-method signature="testProductVerson()[pri:3, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-21T08:20:29Z" name="testProductVerson" finished-at="2022-04-21T08:20:43Z" duration-ms="14225" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Actual and Expected versions are same]]>
             </line>
           </reporter-output>
         </test-method> <!-- testProductVerson -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-09T09:28:29Z" name="closeApp" finished-at="2022-04-09T09:28:31Z" duration-ms="1570" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.VerifyProductVersion_Test@6c779568]" started-at="2022-04-21T08:20:43Z" name="closeApp" finished-at="2022-04-21T08:20:45Z" duration-ms="1586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,18 +81,18 @@
         </test-method> <!-- closeApp -->
       </class> <!-- script.VerifyProductVersion_Test -->
       <class name="script.ValidLogin_Test">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-09T09:26:23Z" name="openApp" finished-at="2022-04-09T09:26:43Z" duration-ms="20445" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-21T08:18:53Z" name="openApp" finished-at="2022-04-21T08:19:10Z" duration-ms="16716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-09T09:26:43Z" name="testValidLogin" finished-at="2022-04-09T09:27:21Z" duration-ms="38050" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-21T08:19:10Z" name="testValidLogin" finished-at="2022-04-21T08:19:22Z" duration-ms="12130" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Actual tiltle is matching with the Expected tiltle]]>
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-09T09:27:21Z" name="closeApp" finished-at="2022-04-09T09:27:23Z" duration-ms="1700" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin_Test@6f27a732]" started-at="2022-04-21T08:19:22Z" name="closeApp" finished-at="2022-04-21T08:19:24Z" duration-ms="1603" status="PASS">
           <params>
             <param index="0">
               <value>

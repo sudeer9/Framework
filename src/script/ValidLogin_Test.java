@@ -16,11 +16,12 @@ public class ValidLogin_Test extends BaseTest
 		String pw=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 1);
 		String eTitle=Excel_Data.getValue(EXCEL_PATH, "Valid Login", 1, 2);
 		LoginPage l=new LoginPage(driver);
-		l.setuserName(un);
+		l.login(un, pw);
+		/*l.setuserName(un);
 		Thread.sleep(2000);
 		l.setPassword(pw);
 		Thread.sleep(2000);
-		l.clickLogin();
+		l.clickLogin();*/
 		Thread.sleep(4000);
 		EnterPage e=new EnterPage(driver);
 		e.verifyHomePageDisplayed(driver, eTitle);
