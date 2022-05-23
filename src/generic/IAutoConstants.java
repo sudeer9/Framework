@@ -2,7 +2,7 @@ package generic;
 
 public interface IAutoConstants 
 {
-	
+	//modification 
 		String CHROME_KEY="webdriver.chrome.driver";
 		String CHROME_VALUE="./Drivers/chromedriver.exe";
 		String GECKO_KEY="webdriver.gecko.driver";
