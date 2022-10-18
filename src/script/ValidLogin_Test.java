@@ -9,6 +9,7 @@ import page.LoginPage;
 
 public class ValidLogin_Test extends BaseTest
 {
+	//comment
 	@Test(priority=1,groups= {"login","smoke"})
 	public void testValidLogin() throws InterruptedException
 	{
